@@ -6,6 +6,9 @@ module.exports = {
       colors: {
         black: '#191624',
       },
+      fontFamily: {
+        poppins: ['Poppins', 'sans-serif'],
+      },
       animation: {
         slideup: 'slideup 1s ease-in-out',
         slidedown: 'slidedown 1s ease-in-out',
