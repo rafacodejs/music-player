@@ -8,7 +8,7 @@ const RelatedSongs = ({
   handlePlayClick,
   artistId,
 }) => (
-  <div className='flex flex-col'>
+  <div className='flex flex-col mt-6'>
     <h1 className=' text-white font-bold font-poppins text-3xl'>
       Related Songs:
     </h1>
