@@ -14,7 +14,7 @@ const Track = ({ isPlaying, isActive, activeSong }) => (
       />
     </div>
     <div className='w-[50%]'>
-      <p className='truncate text-white font-bold text-lg'>
+      <p className='truncate text-white font-medium text-xl'>
         {activeSong?.title ? activeSong?.title : 'No active Song'}
       </p>
       <p className='truncate text-gray-300'>

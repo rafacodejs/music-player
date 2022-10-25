@@ -19,7 +19,9 @@ const Searchbar = () => {
         Search all songs
       </label>
       <div className='flex flex-row justify-start items-center'>
-        <FiSearch className='w-5 h-75 ml-4' />
+        <div className='flex justify-center items-center w-[38px] h-[56px] ml-2 absolute bg-gray-300  rounded-md '>
+          <FiSearch className='text-[30px] text-black rounded-md ' />
+        </div>
         <input
           name='search-field'
           autoComplete='off'
@@ -28,7 +30,7 @@ const Searchbar = () => {
           type='search'
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
-          className='flex-1 bg-transparent border-none outline-none placeholder-gray-500 text-base text-white p-4 font-poppins'
+          className='flex-1 bg-gray-300 border-none outline-none placeholder-gray-500 text-base text-black rounded-md p-4 font-poppins ml-9'
         />
       </div>
     </form>

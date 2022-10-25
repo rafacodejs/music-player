@@ -84,6 +84,7 @@ const MusicPlayer = () => {
           onInput={(event) => setSeekTime(event.target.value)}
           setSeekTime={setSeekTime}
           appTime={appTime}
+          
         />
         <Player
           activeSong={activeSong}
