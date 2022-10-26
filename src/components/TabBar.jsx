@@ -1,11 +1,12 @@
 import React from 'react';
-import { links} from '../assets/constants';
+
+import { links } from '../assets/constants';
 import { NavLink } from 'react-router-dom';
 
 const TabBar = ({ handleClick }) => {
   return (
     <div
-      className={`flex justify-around items-center w-full h-14 bg-black fixed left-0 bottom-0 shadow-md lg:hidden z-10`}
+      className={`flex justify-around items-center w-full h-16 bg-black fixed left-0 bottom-0 sm:hidden z-10`}
     >
       {links.map((item) => (
         <NavLink
