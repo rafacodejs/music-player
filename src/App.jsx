@@ -40,7 +40,7 @@ const App = () => {
       </div>
 
       {activeSong?.title && (
-        <div className='absolute h-28 bottom-14 left-0 right-0 ss:bottom-0 flex animate-slideup bg-gradient-to-br from-[#272f46] to-[#333b51] backdrop-blur-lg rounded-t-3xl z-10'>
+        <div className='absolute h-28 bottom-14 left-0 right-0 sm:bottom-0 flex animate-slideup bg-gradient-to-br from-[#272f46] to-[#333b51] backdrop-blur-lg rounded-t-3xl z-30'>
           <MusicPlayer />
         </div>
       )}
