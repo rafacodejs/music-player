@@ -31,15 +31,15 @@ const Sidebar = () => {
         <NavLinks />
       </div>
 
-      <div className='absolute md:hidden block top-6 right-3'>
+      <div className='absolute sg:invisible ss:visible block top-6 right-3'>
         {mobileMenuOpen ? (
           <RiCloseLine
-            className='w-6 h-6 text-white mr-2 cursor-pointer'
+            className='w-6 h-6 text-white mr-2 cursor-pointer sg:invisible ss:visible'
             onClick={() => setMobileMenuOpen(false)}
           />
         ) : (
           <HiOutlineMenu
-            className='w-6 h-6 text-white mr-2 cursor-pointer'
+            className='w-6 h-6 text-white mr-2 cursor-pointer sg:invisible ss:visible'
             onClick={() => setMobileMenuOpen(true)}
           />
         )}

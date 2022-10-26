@@ -1,7 +1,7 @@
 import { useSelector } from 'react-redux';
 import { Route, Routes } from 'react-router-dom';
 
-import { Searchbar, Sidebar, MusicPlayer, TopPlay } from './components';
+import { Searchbar, Sidebar, MusicPlayer, TopPlay, TabBar } from './components';
 import {
   ArtistDetails,
   TopArtists,
@@ -40,10 +40,13 @@ const App = () => {
       </div>
 
       {activeSong?.title && (
-        <div className='absolute h-28 bottom-0 left-0 right-0 flex animate-slideup bg-gradient-to-br from-[#272f46] to-[#333b51] backdrop-blur-lg rounded-t-3xl z-10'>
+        <div className='absolute h-28 bottom-14 left-0 right-0 ss:bottom-0 flex animate-slideup bg-gradient-to-br from-[#272f46] to-[#333b51] backdrop-blur-lg rounded-t-3xl z-10'>
           <MusicPlayer />
         </div>
       )}
+      <div className='absolute h-0 bottom-14 left-0 right-0 ss:hidden'>
+        <TabBar />
+      </div>
     </div>
   );
 };
