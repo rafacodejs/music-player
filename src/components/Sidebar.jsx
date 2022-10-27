@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import { RiCloseLine } from 'react-icons/ri';
 import { HiOutlineMenu } from 'react-icons/hi';
-import { logo } from '../assets';
+import logo from '../assets/logo.png';
 import { links } from '../assets/constants';
 
 const NavLinks = ({ handleClick }) => (
@@ -11,7 +11,7 @@ const NavLinks = ({ handleClick }) => (
       <NavLink
         key={item.name}
         to={item.to}
-        className='flex flex-row justify-start items-center my-8 text-sm font-poppins font-medium text-gray-400 hover:text-[#32c776]'
+        className='relative bottom-12 flex flex-row justify-start items-center my-8 text-sm font-poppins font-medium text-gray-400 hover:text-[#32c776]'
         onClick={() => handleClick && handleClick()}
       >
         <item.icon className='w-6 h-6 mr-2' />
@@ -26,8 +26,8 @@ const Sidebar = () => {
 
   return (
     <>
-      <div className='md:flex hidden flex-col w-[240px] py-10 px-4 bg-black'>
-        <img src={logo} alt='logo' className='w-full h-14 object-contain' />
+      <div className='md:flex hidden flex-col w-[240px] py-6 px-4 bg-black'>
+        <img src={logo} alt='logo' className='w-full h-32 object-contain' />
         <NavLinks />
       </div>
 
