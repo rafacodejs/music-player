@@ -10,7 +10,7 @@ const TopArtists = () => {
 
   return (
     <div className='flex flex-col'>
-      <h2 className='font-bold font-poppins text-3xl text-left text-white mt-8 mb-10'>
+      <h2 className='font-bold font-poppins text-3xl text-left text-white mb-10'>
         Top Artist
       </h2>
       <div className='flex flex-wrap sm:justify-start justify-center gap-8'>

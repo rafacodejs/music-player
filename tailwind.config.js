@@ -44,10 +44,7 @@ module.exports = {
           '100%': { transform: 'scale(0)' },
         },
       },
-      screens: {
-        sg: '320px',
-        xs: '480px',
-      },
+     
     },
   },
 };
