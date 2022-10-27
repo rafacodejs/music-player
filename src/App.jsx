@@ -19,7 +19,6 @@ const App = () => {
     <div className='relative flex'>
       <Sidebar />
       <div className='flex-1 flex flex-col bg-gradient-to-br from-black to-[#272f46]'>
-        
         <Searchbar />
 
         <div className='px-6 h-[calc(100vh-72px)] overflow-y-scroll hide-scrollbar flex xl:flex-row flex-col-reverse'>
@@ -41,13 +40,13 @@ const App = () => {
       </div>
 
       {activeSong?.title && (
-        <div className='absolute h-24 bottom-[60px] sm:bottom-0 left-0 right-0 flex animate-slideup bg-gradient-to-br from-[#272f46] to-[#333b51] backdrop-blur-lg rounded-t-3xl z-30'>
+        <div className='fixed h-[92px] bottom-[60px] sm:bottom-0 left-0 right-0 flex animate-slideup bg-gradient-to-br from-[#272f46] to-[#333b51] backdrop-blur-lg rounded-t-3xl z-30'>
           <MusicPlayer />
         </div>
       )}
-      {/*<div className='absolute h-0 bottom-14 left-0 right-0 ss:hidden'>
+      <div className='absolute h-0 bottom-14 left-0 right-0 ss:hidden'>
         <TabBar />
-      </div>*/}
+      </div>
     </div>
   );
 };
