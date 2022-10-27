@@ -45,9 +45,9 @@ const App = () => {
           <MusicPlayer />
         </div>
       )}
-      <div className='absolute h-0 bottom-14 left-0 right-0 ss:hidden'>
+      {/*<div className='absolute h-0 bottom-14 left-0 right-0 ss:hidden'>
         <TabBar />
-      </div>
+      </div>*/}
     </div>
   );
 };
