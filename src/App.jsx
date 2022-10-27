@@ -22,7 +22,7 @@ const App = () => {
         
         <Searchbar />
 
-        <div className='px-6 h-[calc(100vh-72px)] overflow-y-scroll flex xl:flex-row flex-col-reverse'>
+        <div className='px-6 h-[calc(100vh-72px)] overflow-y-scroll hide-scrollbar flex xl:flex-row flex-col-reverse'>
           <div className='flex-1 h-auto pb-20'>
             <Routes>
               <Route path='/' element={<Discover />} />
