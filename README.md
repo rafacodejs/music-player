@@ -4,7 +4,7 @@
 
 ## 📜 Resumen 📜
 
-Escucha las mejores canciones de tus artistas favoritos en Sound Music App. Proyecto construido con la API de ShazamCore en RapidAPI, utilizando Redux Toolkit no solo para le manejo dl estado sino también para las peticiones a los distintos endpoints de la API, añadiendo rutas e implementando un buscador con React Router  además de estilizar la aplicación con TailwindCss. 
+Escucha las mejores canciones de tus artistas favoritos en Sound Music App. Proyecto construido con la API de ShazamCore en RapidAPI, utilizando Redux Toolkit no solo para le manejo del estado sino también para las peticiones a los distintos endpoints de la API, añadiendo rutas e implementando un buscador con React Router  además de estilizar la aplicación con TailwindCss. 
 
 ## 💻 Si quieres ver el código en tu computadora solo debes hacer esta instalación 💻
 
