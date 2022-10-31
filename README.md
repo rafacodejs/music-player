@@ -33,20 +33,20 @@ Descubre las mejores películas, series, estrenos, y reviews en MovieLab. Proyec
       <td>
         <img src="https://i.postimg.cc/rF6WrLjr/html.png" width="100%" />
       </td>
-    <td>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/400px-Tailwind_CSS_Logo.svg.png" width="100%" />
-      </td>
       <td>
         <img
           src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/300px-Unofficial_JavaScript_logo_2.svg.png" width="100%"  />
       </td>
-       <td>
+    <td>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/400px-Tailwind_CSS_Logo.svg.png" width="100%" />
+      </td>
+        <td>
         <img
-          src="https://i.postimg.cc/4NVpWmdz/pngwing-com-1.png" width="100%" />
+          src="https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png" width="100%" />
       </td>
        <td>
         <img
-          src="https://assets.stickpng.com/images/5848309bcef1014c0b5e4a9a.png" width="100%" />
+          src="https://i.postimg.cc/vTZKCcTY/5848309bcef1014c0b5e4a9a.png" width="100%" />
       </td>
        <td>
         <img
