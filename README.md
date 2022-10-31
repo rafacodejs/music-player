@@ -4,15 +4,17 @@
 
 ## 📜 Resumen 📜
 
-Descubre las mejores películas, series, estrenos, y reviews en MovieLab. Proyecto construido con la API de TheMovieBD, utilizando las async functions de JavaScript, manipulación de DOM, navegación de una SPA y slider automáticos.
+Escucha las mejores canciones de tus artistas favoritos en Sound Music App. Proyecto construido con la API de ShazamCore en RapidAPI, utilizando Redux Toolkit no solo para le manejo dl estado sino también para las peticiones a los distintos endpoints de la API, añadiendo rutas e implementando un buscador con React Router  además de estilizar la aplicación con TailwindCss. 
 
 ## 💻 Si quieres ver el código en tu computadora solo debes hacer esta instalación 💻
 
 - Ubicarse en la carpeta que contendrá el proyecto
 - Abrir terminal de comandos
-  - git https://github.com/rafacodejs/MovieLab.git
-  - cd MovieLab
+  - git clone https://github.com/rafacodejs/music-player
+  - cd music-player
+  - npm install
   - Abrir tu editor de código
+  - npm run dev
 
 ## 👨‍💻 Tecnologías Usadas 👨‍💻
 
